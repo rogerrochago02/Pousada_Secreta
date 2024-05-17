@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topo {
+    width: 100%;
+    position: fixed;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between ;
+}
+
+.links :hover {
+    transition: 2s;
+    text-decoration: underline;
+}
+
+.links a {
+    font-size: 18px;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.banner {
+    background-image: url(assets/img-fundo.jpg);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    background-color: rgba(64, 193, 118, 0.578);
+    border: 1px solid #fff;
+    max-width: 800px;
+    height: 200px;
+    padding: 150px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo h2 {
+    font-size: 60px;
+    color: white;
+}
+
+.titulo p {
+    font-size: 26px;
+    color: white;
+    font-weight: 300;
+}
+
+.descricao {
+    text-align: center;
+    padding: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.descricao h2 {
+    font-size: 32px;
+    font-weight: 200;
+    padding: 20px;
+}
+
+.descricao p {
+    font-size: 18px;
+    font-weight: 300;
+    padding: 20px;
+}
+
+.fotos img {
+    width: 300px;
+}
+
+.fotos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-bottom: 2px solid rgb(7, 184, 95);
+    padding-bottom: 20px;
+}
+
+.card a {
+    text-decoration: none;
+    color: rgb(56, 167, 108);
+}
+
+.cabecalho {
+    text-align: center;
+    padding: 60px;
+}
+
+.cabecalho h2 {
+    font-size: 28px;
+    font-weight: 400;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+.cabecalho p {
+    font-size: 18px;
+}
+
+iframe {
+    width: 100%;
+}
+
+.container-card {
+    max-width: 1024px;
+    margin: 0 auto 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.imagem {
+    width: 30%;
+    height: 100%;
+}
+
+.imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-sobre {
+    flex: 1 0 350px;
+    text-align: left;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    background-color: #f1f1f1;
+}
+
+.conteudo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.conteudo span {
+    font-weight: 600;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteudo p {
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 10px;
+}
+
+.rodape {
+    background-color: rgb(67, 152, 102);
+    color: #fff;
+}
+
+.container-card-rodape {
+    display: flex;
+    flex: 1 0 300px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card-rodape {
+    display: flex;
+    align-items: center;
+}
+
+.card-rodape img {
+    margin-right: 16px;
+}
+
+.card-rodape h4 {
+    font-size: 22px;
+}
+
+.card-rodape a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.copright {
+    text-align: center;
+    max-width: 1024px;
+    margin: auto;
+    border-top: 1px solid rgb(91, 225, 169);
+    padding: 40px;
+}
+
