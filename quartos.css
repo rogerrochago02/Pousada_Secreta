@@ -10,6 +10,7 @@
     background-color: #f1f1f1;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding: 5px;
 }
 
@@ -100,12 +101,28 @@ h3 {
 }
 
 .lista {
-    margin: auto;
     max-width: 1024px;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-between;
-    padding: 40px;
-}
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+
+  .info li {
+    width: 230px;
+    text-align: left;
+  }
 
 .rodape {
     background-color: rgb(67, 152, 102);
